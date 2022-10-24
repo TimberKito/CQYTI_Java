@@ -12,6 +12,6 @@ public class Land {
 
         zao.drinkWater(50);
         ma.drinkWater(100);
-        System.out.println("赵家喝了50,马家喝了100，村庄剩余："+Village.getWaterAmount());
+        System.out.println(zao.getName() + "喝了50," + ma.getName() + "喝了100，村庄剩余：" + Village.getWaterAmount());
     }
 }
